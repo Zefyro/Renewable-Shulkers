@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Renewable Shulkers v0.1.0",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Adds game mechanic introduced in 20w45a which makes shulkers hit by shulker bullets duplicate."
+        },
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Main": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vanillaplus:root"
+}
