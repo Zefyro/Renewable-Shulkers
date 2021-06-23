@@ -1,6 +1,6 @@
 
 #> duplicate
-execute store result score @s S.Shulkers run execute if entity @e[type=shulker,distance=0.1..16]
+execute store result score @s S.Shulkers run execute positioned ~-16 ~-16 ~-16 if entity @e[type=shulker,dx=32,dy=32,dz=32]
 # 0 Shulker(s) nearby 100%
 execute if score @s S.Shulkers matches 0 run summon shulker ~ ~ ~ {Color:16b}
 # 1 Shulker(s) nearby 50%
